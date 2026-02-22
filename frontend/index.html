@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortgame Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>Shortgame Dashboard</h1>
+        <p class="subtitle"><span id="total-rounds">0</span> rounds tracked</p>
+    </header>
+
+    <section class="gauges-row top-row" id="gauges-top">
+        <div class="gauge-card" id="gauge-ppr"></div>
+        <div class="gauge-card" id="gauge-updown"></div>
+        <div class="gauge-card" id="gauge-sg"></div>
+    </section>
+
+    <section class="gauges-row bottom-row" id="gauges-bottom">
+        <div class="gauge-card" id="gauge-approach"></div>
+        <div class="gauge-card" id="gauge-3ft"></div>
+        <div class="gauge-card" id="gauge-4-5ft"></div>
+        <div class="gauge-card" id="gauge-6-7ft"></div>
+    </section>
+
+    <section class="stats-section">
+        <h2>Putting Table</h2>
+        <div class="table-wrapper">
+            <table id="putting-table">
+                <thead>
+                    <tr>
+                        <th>Distance</th>
+                        <th>1st Putt Make %</th>
+                        <th>2nd Putt Make %</th>
+                    </tr>
+                </thead>
+                <tbody id="putting-tbody"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <h2>Other Stats</h2>
+        <div class="other-stats">
+            <div class="stat-item">
+                <span class="stat-label">GIR Approach Distance</span>
+                <span class="stat-value" id="gir-approach">--</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/gauge.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

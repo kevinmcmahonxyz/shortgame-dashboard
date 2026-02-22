@@ -1,0 +1,200 @@
+:root {
+    --bg: #1a1a2e;
+    --bg-card: #16213e;
+    --bg-table: #0f3460;
+    --text: #e0e0e0;
+    --text-dim: #8892a0;
+    --accent: #53a8b6;
+    --green: #4ecca3;
+    --amber: #f0a500;
+    --red: #e74c3c;
+    --border: #2a2a4a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 1.5rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.subtitle {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+/* Gauges Rows */
+.gauges-row {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-row {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.bottom-row {
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 2rem;
+}
+
+.gauge-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gauge-card .gauge-title {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.gauge-card svg {
+    width: 120px;
+    height: 120px;
+}
+
+.gauge-card .gauge-goal {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    margin-top: 0.15rem;
+}
+
+/* Stats Sections */
+.stats-section {
+    max-width: 900px;
+    margin: 0 auto 2rem;
+}
+
+.stats-section h2 {
+    font-size: 1.2rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+/* Table */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-card);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 0.6rem 1rem;
+    text-align: center;
+}
+
+th {
+    background: var(--bg-table);
+    color: var(--accent);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+td {
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+td:first-child {
+    text-align: left;
+    font-weight: 500;
+    color: var(--text-dim);
+}
+
+/* Other Stats */
+.other-stats {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.stat-label {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+}
+
+.stat-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    .top-row {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+    }
+
+    .bottom-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+
+    .gauge-card svg {
+        width: 100px;
+        height: 100px;
+    }
+
+    th, td {
+        padding: 0.5rem 0.5rem;
+        font-size: 0.8rem;
+    }
+}
