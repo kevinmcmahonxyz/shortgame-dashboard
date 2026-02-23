@@ -48,7 +48,6 @@ SG_BASELINE: dict[str, float] = {
 GOALS = {
     "putts_per_round": 31.8,
     "up_and_down_pct": 50.0,
-    "non_gir_approach_ft": 7.0,  # feet
     "sg_putting": 0.0,
     "make_pct_3ft": 90.0,
     "make_pct_4_5ft": 70.0,

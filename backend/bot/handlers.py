@@ -11,13 +11,13 @@ from telegram.ext import (
 )
 
 from backend.config import settings
-from backend.bot.keyboards import distance_keyboard, gir_keyboard
+from backend.bot.keyboards import distance_keyboard, gir_keyboard, holes_keyboard
 from backend.storage.database import Hole, Putt, Round, get_session
 
 logger = logging.getLogger(__name__)
 
 # Conversation states
-FIRST_PUTT, GIR_SELECT, NEXT_PUTT = range(3)
+HOLE_COUNT, FIRST_PUTT, GIR_SELECT, NEXT_PUTT = range(4)
 
 # User data keys
 ROUND_ID = "round_id"
@@ -25,10 +25,39 @@ HOLE_NUM = "hole_num"
 HOLE_ID = "hole_id"
 PUTT_NUM = "putt_num"
 TOTAL_PUTTS = "total_putts"
+TOTAL_HOLES = "total_holes"
+
+
+async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Show help message."""
+    await update.message.reply_text(
+        "Shortgame Tracker\n\n"
+        "/round - Start a new round\n"
+        "/cancel - End current round early (data is saved)\n"
+        "/help - Show this message\n\n"
+        "During a round, tap the inline buttons to log each hole:\n"
+        "1. Select 1st putt distance\n"
+        "2. Select GIR / Non-GIR\n"
+        "3. Select next putt distance, or Made It! if the previous putt went in\n"
+        "4. Repeat until the round is complete"
+    )
 
 
 async def start_round(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     """Start a new round via /round command."""
+    await update.message.reply_text(
+        "How many holes?",
+        reply_markup=holes_keyboard(),
+    )
+    return HOLE_COUNT
+
+
+async def hole_count_selected(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
+    """Handle 9 or 18 hole selection."""
+    query = update.callback_query
+    await query.answer()
+
+    total_holes = int(query.data.replace("holes:", ""))
     user_id = str(update.effective_user.id)
 
     with get_session() as session:
@@ -41,9 +70,11 @@ async def start_round(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int
     context.user_data[ROUND_ID] = round_id
     context.user_data[HOLE_NUM] = 1
     context.user_data[TOTAL_PUTTS] = 0
+    context.user_data[TOTAL_HOLES] = total_holes
 
-    await update.message.reply_text(
-        "Starting round! Hole 1 of 18.\n\nSelect 1st putt distance:",
+    await query.edit_message_text(
+        f"Starting {total_holes}-hole round! Hole 1 of {total_holes}.\n\n"
+        "Select 1st putt distance:",
         reply_markup=distance_keyboard(include_made_it=False),
     )
     return FIRST_PUTT
@@ -106,6 +137,7 @@ async def gir_selected(update: Update, context: ContextTypes.DEFAULT_TYPE) -> in
     hole_id = context.user_data[HOLE_ID]
     hole_num = context.user_data[HOLE_NUM]
     first_distance = context.user_data["first_putt_distance"]
+    total_holes = context.user_data[TOTAL_HOLES]
 
     with get_session() as session:
         hole = session.get(Hole, hole_id)
@@ -117,7 +149,7 @@ async def gir_selected(update: Update, context: ContextTypes.DEFAULT_TYPE) -> in
 
     if first_distance == "Gimmie":
         # Already recorded 1 putt, move to next hole
-        return await _advance_hole(query, context, gir_text)
+        return await _advance_hole(query, context)
 
     # Ask for 2nd putt
     context.user_data[PUTT_NUM] = 2
@@ -170,11 +202,12 @@ async def _advance_hole(query, context, gir_text: str = "") -> int:
     """Move to the next hole or finish the round."""
     hole_num = context.user_data[HOLE_NUM]
     total_putts = context.user_data[TOTAL_PUTTS]
+    total_holes = context.user_data[TOTAL_HOLES]
 
-    if hole_num >= 18:
+    if hole_num >= total_holes:
         # Round complete
         await query.edit_message_text(
-            f"Round complete! {total_putts} total putts.\n\n"
+            f"Round complete! {total_putts} total putts in {total_holes} holes.\n\n"
             f"View your dashboard to see updated stats."
         )
         return ConversationHandler.END
@@ -184,29 +217,50 @@ async def _advance_hole(query, context, gir_text: str = "") -> int:
     next_hole = hole_num + 1
     await query.edit_message_text(
         f"Hole {hole_num} done. Total putts so far: {total_putts}\n\n"
-        f"Hole {next_hole} of 18 - Select 1st putt distance:",
+        f"Hole {next_hole} of {total_holes} - Select 1st putt distance:",
         reply_markup=distance_keyboard(include_made_it=False),
     )
     return FIRST_PUTT
 
 
 async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
-    """Cancel the current round."""
+    """End the current round early. Completed holes are kept."""
     round_id = context.user_data.get(ROUND_ID)
-    if round_id:
+    total_putts = context.user_data.get(TOTAL_PUTTS, 0)
+    hole_num = context.user_data.get(HOLE_NUM, 0)
+    holes_completed = hole_num - 1 if hole_num else 0
+
+    if round_id and holes_completed > 0:
+        # Keep completed holes, delete any in-progress hole (no putts_taken set)
+        with get_session() as session:
+            from sqlmodel import select
+            incomplete = session.exec(
+                select(Hole).where(
+                    Hole.round_id == round_id, Hole.putts_taken == 0
+                )
+            ).all()
+            for hole in incomplete:
+                for putt in hole.putts:
+                    session.delete(putt)
+                session.delete(hole)
+            session.commit()
+
+        await update.message.reply_text(
+            f"Round ended early. {holes_completed} holes saved ({total_putts} putts).\n\n"
+            f"View your dashboard to see updated stats."
+        )
+    elif round_id:
+        # No holes completed, delete the round entirely
         with get_session() as session:
             round_obj = session.get(Round, round_id)
             if round_obj:
-                # Delete associated holes and putts
-                for hole in round_obj.holes:
-                    for putt in hole.putts:
-                        session.delete(putt)
-                    session.delete(hole)
                 session.delete(round_obj)
                 session.commit()
+        await update.message.reply_text("Round cancelled. No data saved.")
+    else:
+        await update.message.reply_text("No round in progress.")
 
     context.user_data.clear()
-    await update.message.reply_text("Round cancelled.")
     return ConversationHandler.END
 
 
@@ -217,6 +271,9 @@ def build_bot_app() -> Application:
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("round", start_round)],
         states={
+            HOLE_COUNT: [
+                CallbackQueryHandler(hole_count_selected, pattern=r"^holes:"),
+            ],
             FIRST_PUTT: [
                 CallbackQueryHandler(first_putt_selected, pattern=r"^dist:"),
             ],
@@ -231,5 +288,6 @@ def build_bot_app() -> Application:
     )
 
     app.add_handler(conv_handler)
+    app.add_handler(CommandHandler("help", help_command))
 
     return app

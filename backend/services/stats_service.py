@@ -2,18 +2,8 @@ from collections import defaultdict
 
 from sqlmodel import select
 
-from backend.constants import DISTANCES, DISTANCE_TO_FEET, GOALS, SG_BASELINE
+from backend.constants import DISTANCES, GOALS, SG_BASELINE
 from backend.storage.database import Hole, Putt, Round, get_session
-
-
-def _feet_to_display(feet: float) -> str:
-    """Convert feet (float) to ft'in\" display string."""
-    ft = int(feet)
-    inches = round((feet - ft) * 12)
-    if inches == 12:
-        ft += 1
-        inches = 0
-    return f"{ft}'{inches}\""
 
 
 def compute_stats() -> dict:
@@ -33,8 +23,8 @@ def compute_stats() -> dict:
     for h in holes:
         holes_by_round[h.round_id].append(h)
 
-    # Filter to complete rounds only (18 holes)
-    rounds = [r for r in rounds if len(holes_by_round[r.id]) == 18]
+    # Filter to complete rounds only (9 or 18 holes)
+    rounds = [r for r in rounds if len(holes_by_round[r.id]) in (9, 18)]
     if not rounds:
         return _empty_stats()
 
@@ -48,10 +38,14 @@ def compute_stats() -> dict:
         if p.hole_id in set(hole_ids):
             putts_by_hole[p.hole_id].append(p)
 
-    # --- Putts Per Round ---
+    # --- Putts Per Round (normalized to 18 holes) ---
     round_putt_counts = []
     for r in rounds:
+        hole_count = len(holes_by_round[r.id])
         total = sum(h.putts_taken for h in holes_by_round[r.id])
+        # Normalize 9-hole rounds to 18-hole equivalent
+        if hole_count == 9:
+            total *= 2
         round_putt_counts.append(total)
     putts_per_round = sum(round_putt_counts) / len(round_putt_counts) if round_putt_counts else 0
 
@@ -60,38 +54,10 @@ def compute_stats() -> dict:
     non_gir_one_putts = sum(1 for h in non_gir_holes if h.putts_taken == 1)
     up_and_down_pct = (non_gir_one_putts / len(non_gir_holes) * 100) if non_gir_holes else 0
 
-    # --- Non-GIR Approach Distance ---
-    non_gir_approach_distances = []
-    for h in non_gir_holes:
-        hole_putts = sorted(putts_by_hole[h.id], key=lambda p: p.putt_number)
-        if hole_putts:
-            first_dist = hole_putts[0].distance
-            if first_dist in DISTANCE_TO_FEET:
-                non_gir_approach_distances.append(DISTANCE_TO_FEET[first_dist])
-    non_gir_approach_avg = (
-        sum(non_gir_approach_distances) / len(non_gir_approach_distances)
-        if non_gir_approach_distances
-        else 0
-    )
-
-    # --- GIR Approach Distance ---
-    gir_holes = [h for h in holes if h.gir]
-    gir_approach_distances = []
-    for h in gir_holes:
-        hole_putts = sorted(putts_by_hole[h.id], key=lambda p: p.putt_number)
-        if hole_putts:
-            first_dist = hole_putts[0].distance
-            if first_dist in DISTANCE_TO_FEET:
-                gir_approach_distances.append(DISTANCE_TO_FEET[first_dist])
-    gir_approach_avg = (
-        sum(gir_approach_distances) / len(gir_approach_distances)
-        if gir_approach_distances
-        else 0
-    )
-
-    # --- SG:Putting ---
+    # --- SG:Putting (normalized to 18 holes) ---
     sg_per_round = []
     for r in rounds:
+        hole_count = len(holes_by_round[r.id])
         sg_round = 0.0
         for h in holes_by_round[r.id]:
             hole_putts = sorted(putts_by_hole[h.id], key=lambda p: p.putt_number)
@@ -100,6 +66,9 @@ def compute_stats() -> dict:
                 expected = SG_BASELINE.get(first_dist, 2.0)
                 actual = h.putts_taken
                 sg_round += expected - actual
+        # Normalize 9-hole rounds to 18-hole equivalent
+        if hole_count == 9:
+            sg_round *= 2
         sg_per_round.append(sg_round)
     sg_putting = sum(sg_per_round) / len(sg_per_round) if sg_per_round else 0
 
@@ -165,10 +134,6 @@ def compute_stats() -> dict:
         "total_rounds": len(rounds),
         "putts_per_round": round(putts_per_round, 1),
         "up_and_down_pct": round(up_and_down_pct, 1),
-        "non_gir_approach_ft": round(non_gir_approach_avg, 2),
-        "non_gir_approach_display": _feet_to_display(non_gir_approach_avg),
-        "gir_approach_ft": round(gir_approach_avg, 2),
-        "gir_approach_display": _feet_to_display(gir_approach_avg),
         "sg_putting": round(sg_putting, 2),
         "make_pct_3ft": make_pct_3ft,
         "make_pct_4_5ft": make_pct_4_5ft,
@@ -186,10 +151,6 @@ def _empty_stats() -> dict:
         "total_rounds": 0,
         "putts_per_round": 0,
         "up_and_down_pct": 0,
-        "non_gir_approach_ft": 0,
-        "non_gir_approach_display": "0'0\"",
-        "gir_approach_ft": 0,
-        "gir_approach_display": "0'0\"",
         "sg_putting": 0,
         "make_pct_3ft": 0,
         "make_pct_4_5ft": 0,

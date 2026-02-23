@@ -29,3 +29,13 @@ def gir_keyboard() -> InlineKeyboardMarkup:
             InlineKeyboardButton("Non-GIR", callback_data="gir:no"),
         ]
     ])
+
+
+def holes_keyboard() -> InlineKeyboardMarkup:
+    """Build inline keyboard for 9 or 18 hole selection."""
+    return InlineKeyboardMarkup([
+        [
+            InlineKeyboardButton("9 holes", callback_data="holes:9"),
+            InlineKeyboardButton("18 holes", callback_data="holes:18"),
+        ]
+    ])
