@@ -57,7 +57,7 @@ header h1 {
 }
 
 .bottom-row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin-bottom: 2rem;
 }
 
@@ -145,6 +145,31 @@ td:first-child {
     text-align: left;
     font-weight: 500;
     color: var(--text-dim);
+}
+
+/* Other Stats */
+.other-stats {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.stat-label {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+}
+
+.stat-value {
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 /* Responsive */

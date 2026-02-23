@@ -2,8 +2,18 @@ from collections import defaultdict
 
 from sqlmodel import select
 
-from backend.constants import DISTANCES, GOALS, SG_BASELINE
+from backend.constants import DISTANCES, DISTANCE_TO_FEET, GOALS, SG_BASELINE
 from backend.storage.database import Hole, Putt, Round, get_session
+
+
+def _feet_to_display(feet: float) -> str:
+    """Convert feet (float) to ft'in\" display string."""
+    ft = int(feet)
+    inches = round((feet - ft) * 12)
+    if inches == 12:
+        ft += 1
+        inches = 0
+    return f"{ft}'{inches}\""
 
 
 def compute_stats() -> dict:
@@ -53,6 +63,38 @@ def compute_stats() -> dict:
     non_gir_holes = [h for h in holes if not h.gir]
     non_gir_one_putts = sum(1 for h in non_gir_holes if h.putts_taken == 1)
     up_and_down_pct = (non_gir_one_putts / len(non_gir_holes) * 100) if non_gir_holes else 0
+
+    # --- Approach Distances (real rounds only, excludes seed data) ---
+    real_round_ids = {r.id for r in rounds if not r.is_seed}
+    real_holes = [h for h in holes if h.round_id in real_round_ids]
+
+    real_non_gir_holes = [h for h in real_holes if not h.gir]
+    non_gir_approach_distances = []
+    for h in real_non_gir_holes:
+        hole_putts = sorted(putts_by_hole[h.id], key=lambda p: p.putt_number)
+        if hole_putts:
+            first_dist = hole_putts[0].distance
+            if first_dist in DISTANCE_TO_FEET:
+                non_gir_approach_distances.append(DISTANCE_TO_FEET[first_dist])
+    non_gir_approach_avg = (
+        sum(non_gir_approach_distances) / len(non_gir_approach_distances)
+        if non_gir_approach_distances
+        else 0
+    )
+
+    real_gir_holes = [h for h in real_holes if h.gir]
+    gir_approach_distances = []
+    for h in real_gir_holes:
+        hole_putts = sorted(putts_by_hole[h.id], key=lambda p: p.putt_number)
+        if hole_putts:
+            first_dist = hole_putts[0].distance
+            if first_dist in DISTANCE_TO_FEET:
+                gir_approach_distances.append(DISTANCE_TO_FEET[first_dist])
+    gir_approach_avg = (
+        sum(gir_approach_distances) / len(gir_approach_distances)
+        if gir_approach_distances
+        else 0
+    )
 
     # --- SG:Putting (normalized to 18 holes) ---
     sg_per_round = []
@@ -134,6 +176,10 @@ def compute_stats() -> dict:
         "total_rounds": len(rounds),
         "putts_per_round": round(putts_per_round, 1),
         "up_and_down_pct": round(up_and_down_pct, 1),
+        "non_gir_approach_ft": round(non_gir_approach_avg, 2),
+        "non_gir_approach_display": _feet_to_display(non_gir_approach_avg) if non_gir_approach_distances else "--",
+        "gir_approach_ft": round(gir_approach_avg, 2),
+        "gir_approach_display": _feet_to_display(gir_approach_avg) if gir_approach_distances else "--",
         "sg_putting": round(sg_putting, 2),
         "make_pct_3ft": make_pct_3ft,
         "make_pct_4_5ft": make_pct_4_5ft,
@@ -151,6 +197,10 @@ def _empty_stats() -> dict:
         "total_rounds": 0,
         "putts_per_round": 0,
         "up_and_down_pct": 0,
+        "non_gir_approach_ft": 0,
+        "non_gir_approach_display": "--",
+        "gir_approach_ft": 0,
+        "gir_approach_display": "--",
         "sg_putting": 0,
         "make_pct_3ft": 0,
         "make_pct_4_5ft": 0,

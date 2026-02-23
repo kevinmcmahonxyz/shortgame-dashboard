@@ -49,6 +49,18 @@ function renderDashboard(stats) {
     });
 
     createGauge({
+        container: 'gauge-approach',
+        title: 'Non-GIR Approach',
+        value: stats.non_gir_approach_ft,
+        displayValue: stats.non_gir_approach_display,
+        goal: stats.goals.non_gir_approach_ft,
+        goalLabel: `< ${stats.goals.non_gir_approach_ft}ft`,
+        min: 0,
+        max: 30,
+        invertColor: true,
+    });
+
+    createGauge({
         container: 'gauge-sg',
         title: 'SG: Putting',
         value: stats.sg_putting,
@@ -110,6 +122,8 @@ function renderDashboard(stats) {
         tbody.appendChild(row);
     }
 
+    // Other stats
+    document.getElementById('gir-approach').textContent = stats.gir_approach_display;
 }
 
 // Load on page ready
