@@ -231,18 +231,16 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     holes_completed = hole_num - 1 if hole_num else 0
 
     if round_id and holes_completed > 0:
-        # Keep completed holes, delete any in-progress hole (no putts_taken set)
+        # Keep completed holes, delete the current in-progress hole
         with get_session() as session:
             from sqlmodel import select
-            incomplete = session.exec(
-                select(Hole).where(
-                    Hole.round_id == round_id, Hole.putts_taken == 0
-                )
-            ).all()
-            for hole in incomplete:
-                for putt in hole.putts:
-                    session.delete(putt)
-                session.delete(hole)
+            current_hole_id = context.user_data.get(HOLE_ID)
+            if current_hole_id:
+                hole = session.get(Hole, current_hole_id)
+                if hole:
+                    for putt in hole.putts:
+                        session.delete(putt)
+                    session.delete(hole)
             session.commit()
 
         await update.message.reply_text(
@@ -250,12 +248,20 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
             f"View your dashboard to see updated stats."
         )
     elif round_id:
-        # No holes completed, delete the round entirely
+        # No holes completed, delete the round and all its children
         with get_session() as session:
+            from sqlmodel import select
+            all_holes = session.exec(
+                select(Hole).where(Hole.round_id == round_id)
+            ).all()
+            for hole in all_holes:
+                for putt in hole.putts:
+                    session.delete(putt)
+                session.delete(hole)
             round_obj = session.get(Round, round_id)
             if round_obj:
                 session.delete(round_obj)
-                session.commit()
+            session.commit()
         await update.message.reply_text("Round cancelled. No data saved.")
     else:
         await update.message.reply_text("No round in progress.")

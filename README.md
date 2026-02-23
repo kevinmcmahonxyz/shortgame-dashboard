@@ -20,11 +20,11 @@ Plus a full putting table showing 1st putt make % and 2-putt conversion rate at 
 
 ## How It Works
 
-**On the course:** Send `/round` to the Telegram bot. For each hole, tap inline buttons to log your first putt distance, GIR status, and subsequent putts. "Made It!" means the previous putt went in. Data is saved per-hole so nothing is lost if you lose signal.
+**On the course:** Send `/round` to the Telegram bot. Choose 9 or 18 holes, then for each hole tap inline buttons to log your first putt distance, GIR status, and subsequent putts. "Made It!" means the previous putt went in. Data is saved per-hole so nothing is lost if you lose signal. Use `/cancel` to end a round early (completed holes are kept) or `/help` for usage info.
 
 **At home:** Open the dashboard in a browser to see your stats visualized with color-coded circular gauges (green = meeting goal, amber = close, red = needs work).
 
-**Seed data:** 24 rounds of simulated data calibrated to your Grint averages are pre-loaded so the dashboard is useful from day one. New rounds are automatically blended into the averages.
+**Seed data:** 24 rounds of deterministic data (stored in `data/seed_data.json`) calibrated to your Grint averages are pre-loaded so the dashboard is useful from day one. New rounds are automatically blended into the averages. Approach distance stats are computed from real rounds only.
 
 ## Architecture
 
@@ -47,8 +47,11 @@ frontend/
   css/dashboard.css    # Dark theme, responsive grid
   js/gauge.js          # SVG circular gauge component
   js/app.js            # Fetch stats, render dashboard
+data/
+  seed_data.json       # Fixed seed data (24 rounds, checked in)
 scripts/
-  seed_dummy_data.py   # Generate 24 calibrated seed rounds
+  seed_dummy_data.py   # Load seed data from fixture into DB
+  construct_seed.py    # One-time script that built the fixture
 ```
 
 ## Setup

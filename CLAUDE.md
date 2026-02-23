@@ -27,19 +27,27 @@ Single-process Python app (FastAPI + uvicorn) serving:
 ## Project Layout
 
 - `backend/main.py` - FastAPI app, lifespan, webhook endpoint
-- `backend/bot/handlers.py` - Telegram ConversationHandler state machine
-- `backend/bot/keyboards.py` - Inline keyboard builders
-- `backend/services/stats_service.py` - All stat calculations (PPR, SG:Putt, make %, up-and-down)
+- `backend/bot/handlers.py` - Telegram ConversationHandler state machine (HOLE_COUNT → FIRST_PUTT → GIR_SELECT → NEXT_PUTT)
+- `backend/bot/keyboards.py` - Inline keyboard builders (distance, GIR, 9/18 holes)
+- `backend/services/stats_service.py` - All stat calculations (PPR, SG:Putt, make %, up-and-down, approach distance)
 - `backend/storage/database.py` - SQLModel models (Round, Hole, Putt)
 - `backend/constants.py` - Distance lists, SG baseline table, goal thresholds
 - `frontend/` - Static dashboard (index.html, CSS, JS)
-- `scripts/seed_dummy_data.py` - Generate 24 seed rounds
+- `data/seed_data.json` - Fixed seed data fixture (24 rounds matching Grint averages)
+- `scripts/seed_dummy_data.py` - Load seed data from fixture into DB
+- `scripts/construct_seed.py` - One-time script that built the seed fixture
 
 ## Commands
 
 - `docker compose up` - Run locally
 - `uvicorn backend.main:app --reload --port 8000` - Dev mode (no Docker)
-- `python -m scripts.seed_dummy_data` - Seed 24 dummy rounds
+- `python -m scripts.seed_dummy_data` - Load seed data from fixture into DB
+
+## Bot Commands
+
+- `/round` - Start a new round (choose 9 or 18 holes)
+- `/cancel` - End current round early (completed holes are saved)
+- `/help` - Show usage instructions
 
 ## Key Stats Tracked
 
@@ -59,6 +67,8 @@ Single-process Python app (FastAPI + uvicorn) serving:
 
 - Distance stored as label strings ("3ft", "50ft+", "Gimmie") matching keyboard buttons
 - SG:Putting formula: expected_putts(1st_putt_distance) - actual_putts_taken
-- Non-GIR approach distance = 1st putt distance in non-GIR situations
-- Seed rounds flagged with `is_seed=True`
+- Non-GIR approach distance = 1st putt distance in non-GIR situations (real rounds only, excludes seed data)
+- "Made It!" (distance "0") means previous putt went in; actual_putts = putt_num - 1
+- Seed rounds flagged with `is_seed=True`, loaded from `data/seed_data.json`
+- 9-hole rounds normalized to 18-hole equivalents for PPR and SG stats
 - Bot uses polling mode locally, webhook mode in production (controlled by BOT_MODE env var)

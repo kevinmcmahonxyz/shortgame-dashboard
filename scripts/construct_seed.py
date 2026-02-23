@@ -181,13 +181,6 @@ def construct():
 
 if __name__ == "__main__":
     data = construct()
-
-    # Adjust total putts if needed
-    total = sum(h["putts_taken"] for rd in data["rounds"] for h in rd["holes"])
-    diff = total - TARGET_TOTAL_PUTTS
-    if diff != 0:
-        print(f"\n  Adjusting {diff} putts to hit target {TARGET_TOTAL_PUTTS}...")
-
     out = Path(__file__).resolve().parent.parent / "data" / "seed_data.json"
     with open(out, "w") as f:
         json.dump(data, f, indent=2)
