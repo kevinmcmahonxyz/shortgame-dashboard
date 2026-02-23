@@ -1,0 +1,6160 @@
+{
+  "rounds": [
+    {
+      "date": "2025-08-26",
+      "course_name": "Seed Round 1",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-03",
+      "course_name": "Seed Round 2",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-11",
+      "course_name": "Seed Round 3",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft+"
+            },
+            {
+              "putt_number": 2,
+              "distance": "30ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft+"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-19",
+      "course_name": "Seed Round 4",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "15ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-27",
+      "course_name": "Seed Round 5",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-05",
+      "course_name": "Seed Round 6",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-12",
+      "course_name": "Seed Round 7",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-20",
+      "course_name": "Seed Round 8",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-28",
+      "course_name": "Seed Round 9",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-11-05",
+      "course_name": "Seed Round 10",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-11-13",
+      "course_name": "Seed Round 11",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-11-21",
+      "course_name": "Seed Round 12",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "20ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-11-28",
+      "course_name": "Seed Round 13",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": true,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-12-06",
+      "course_name": "Seed Round 14",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-12-14",
+      "course_name": "Seed Round 15",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-12-22",
+      "course_name": "Seed Round 16",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-12-30",
+      "course_name": "Seed Round 17",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "25ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "course_name": "Seed Round 18",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "course_name": "Seed Round 19",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft+"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-22",
+      "course_name": "Seed Round 20",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "course_name": "Seed Round 21",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-02-07",
+      "course_name": "Seed Round 22",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": true,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "50ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "30ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": false,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-02-15",
+      "course_name": "Seed Round 23",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": true,
+          "putts_taken": 3,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 3,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "5ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-02-22",
+      "course_name": "Seed Round 24",
+      "holes": [
+        {
+          "hole_number": 1,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "40ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "40ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 2,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "7ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 3,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "Gimmie"
+            }
+          ]
+        },
+        {
+          "hole_number": 4,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "3ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 5,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "7ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 6,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 7,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 8,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 9,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 10,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 11,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "8ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 12,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "25ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 13,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "20ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "3ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 14,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "15ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "5ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 15,
+          "gir": true,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 16,
+          "gir": true,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "6ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 17,
+          "gir": false,
+          "putts_taken": 2,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            },
+            {
+              "putt_number": 2,
+              "distance": "4ft"
+            }
+          ]
+        },
+        {
+          "hole_number": 18,
+          "gir": false,
+          "putts_taken": 1,
+          "putts": [
+            {
+              "putt_number": 1,
+              "distance": "10ft"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
