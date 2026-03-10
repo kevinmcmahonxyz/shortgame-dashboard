@@ -33,7 +33,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     await update.message.reply_text(
         "Shortgame Tracker\n\n"
         "/round - Start a new round\n"
-        "/cancel - End current round early (data is saved)\n"
+        "/cancel - Cancel current round (no data saved)\n"
         "/help - Show this message\n\n"
         "During a round, tap the inline buttons to log each hole:\n"
         "1. Select 1st putt distance\n"
@@ -223,32 +223,12 @@ async def _advance_hole(query, context, gir_text: str = "") -> int:
     return FIRST_PUTT
 
 
+
 async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
-    """End the current round early. Completed holes are kept."""
+    """Cancel the current round. All data is discarded."""
     round_id = context.user_data.get(ROUND_ID)
-    total_putts = context.user_data.get(TOTAL_PUTTS, 0)
-    hole_num = context.user_data.get(HOLE_NUM, 0)
-    holes_completed = hole_num - 1 if hole_num else 0
 
-    if round_id and holes_completed > 0:
-        # Keep completed holes, delete the current in-progress hole
-        with get_session() as session:
-            from sqlmodel import select
-            current_hole_id = context.user_data.get(HOLE_ID)
-            if current_hole_id:
-                hole = session.get(Hole, current_hole_id)
-                if hole:
-                    for putt in hole.putts:
-                        session.delete(putt)
-                    session.delete(hole)
-            session.commit()
-
-        await update.message.reply_text(
-            f"Round ended early. {holes_completed} holes saved ({total_putts} putts).\n\n"
-            f"View your dashboard to see updated stats."
-        )
-    elif round_id:
-        # No holes completed, delete the round and all its children
+    if round_id:
         with get_session() as session:
             from sqlmodel import select
             all_holes = session.exec(
